@@ -35,7 +35,8 @@ smtp_lab/
 ---
 
 ## ▶️ How to Run
-	1.	Open smtp_client_tls_socket.py and update the following lines with your own credentials:
+
+1.	Open smtp_client_tls_socket.py and update the following lines with your own credentials:
 
 ```python
 username = "your_smtp2go_username"
@@ -44,20 +45,20 @@ sender_email = "your_verified_sender@example.com"
 receiver_email = "recipient@example.com"
 ```
 
-	2.	Save the file and open a terminal in the project folder.
-	3.	Run the script:
+2.	Save the file and open a terminal in the project folder.
+3.	Run the script:
     
 ```bash
 python3 smtp_client_tls_socket.py
 ```
 
-	4.	If successful, you will see:
-	•	Server greeting 220
-	•	TLS handshake success
-	•	SMTP authentication (235 Authentication successful)
-	•	Message accepted (250 OK)
-	•	QUIT response (221 Bye)
-	5.	Check your receiver_email inbox (or spam) for the email.
+4.	If successful, you will see:
+• Server greeting 220
+• TLS handshake success
+• SMTP authentication (235 Authentication successful)
+• Message accepted (250 OK)
+• QUIT response (221 Bye)
+5.	Check your receiver_email inbox (or spam) for the email.
 
 ## ⚙️ Configuration Notes
 
